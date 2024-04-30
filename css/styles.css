@@ -1,0 +1,17 @@
+:root {
+  --Primary-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+body {
+  width: 1440px;
+  overflow: hidden;
+}
