@@ -22,7 +22,6 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
-  font-family: "Inter";
 }
 
 .attribution,
@@ -31,7 +30,6 @@ p:nth-of-type(2) {
 }
 
 body {
-  width: 1200px;
   background-color: var(--Neutral-color4);
   color: var(--Neutral-color1);
   display: flex;
@@ -39,10 +37,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
-
-p {
-  font-family: "Inter";
 }
 
 p:nth-of-type(2) {
@@ -55,12 +49,10 @@ p:nth-of-type(1) {
 }
 
 h1 {
-  font-family: "Inter";
   font-weight: 700;
 }
 
 button {
-  font-family: "Inter";
   font-weight: 700;
   flex-direction: column;
   display: flex;
@@ -106,7 +98,7 @@ button:hover {
   transition: 1s;
 }
 
-div.table {
+div.card {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -116,8 +108,9 @@ div.table {
   max-height: 95%;
   min-height: 95%;
   background-color: var(--Neutral-color3);
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 img {
